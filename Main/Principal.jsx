@@ -28,6 +28,8 @@ export default function Principal() {
                 </div>
                 <Link to="/menu" className="btn-menu">Ver Cardápio Completo</Link>
             </section>
+            <br/>
+            <br/>
         </div>
     );
 }

@@ -26,8 +26,8 @@ export default function Header() {
         <>
             <Navbar fixed="top" style={{ width: "100vw" }} color="dark" dark expand="md">
                 <NavbarBrand href="/">
-                    <img src="/vite.svg" width="30" height="30" className="d-inline-block align-top" alt="Logo" title="logo" />
-                    Trabalho Pos 2
+                    <img src="../src/assets/logo.png" width="70" height="70"  className="d-inline-block align-top me-2" alt="Logo" title="logo" />
+
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

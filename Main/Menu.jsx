@@ -29,14 +29,19 @@ export default function Menu() {
     return (
         <>
             <div className="menu-container">
-                <h2 className="menu-title">Nosso Cardápio</h2>
-                <div className="menu-grid">
+                <h2 className="menu-title mt-5">Nosso Cardápio</h2>
+                <div className="menu-grid mt-5 mb-5">
                     {menu.map((m) => (
                         <CardMenu menu={m} key={m.id} />
                     ))}
                 </div>
+                <br />
+                <br/>
             </div>
-
+            <br/>
+            <br/>
+            <br />
+            <br/>
         </>
 
     );
